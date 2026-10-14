@@ -1,0 +1,22 @@
+# Python virtual environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node.js and frontend build output
+node_modules/
+client/node_modules/
+dist/
+client/dist/
+npm-debug.log*
+
